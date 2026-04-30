@@ -1,0 +1,105 @@
+/* ====== Global ====== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4ff;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+header {
+  background-color: rgb(23, 123, 216);
+  color: var(--white);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top:0;
+}
+
+.title-header {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 500;
+  transition: 0.3s;
+  
+}
+
+nav a:hover {
+  background-color: var(--color2);
+  border-radius: 8px;
+  padding: 3px ;
+}
+h1, h2 {
+    color: #1f4e93;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #e3ecff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+}
+
+section ul, section ol {
+    margin-left: 20px;
+}
+
+
+.subtitle {
+    color: #1f4e93;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.price-box {
+    background: #d0e0ff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 15px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+}
+
+.price-box hr {
+    border: 0;
+    border-top: 2px solid #1f4e93;
+    margin: 10px 0;
+}
+
+
+.closing {
+    background: #c6dbff;
+    border-left: 6px solid #1f4e93;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+.closing p {
+    margin-bottom: 15px;
+}

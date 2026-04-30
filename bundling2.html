@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylem1.css">
+</head>
+<body>
+     <header>
+    <div class="title-header">PRODUK <span style="color:#d9f99d;">3R</span></div>
+   
+    <nav>
+      <a href="../kolaborasi/index.html#home">HOME</a>
+      <a href="../kolaborasi/index.html#about">ABOUT</a>
+      <a href="../kolaborasi/index.html#Analysis">ANALYSIS</a>
+      <a href="../kolaborasi/index.html#bundling">BUNDLING</a>
+      <a href="../kolaborasi/index.html#produk">PRODUK</a>
+     <a href="../kolaborasi/index.html#kontak">CONTACT</a>
+     <a href="../kolaborasi/index.html#profile">PROFILE</a>
+    </nav>
+  </header>
+    <div class="title-box">
+    <h1>Penyelesaian Sistem Persamaan Linear 3 Variabel</h1>
+    <p>Harga Produk: Bansai, Lampu Nanas, dan Bingkai Kaca dari CD</p>
+</div>
+
+<section class="container">
+
+    <div class="card">
+        <h2>1. Model Matematika</h2>
+        <p>x = harga 1 Bansai</p>
+        <p>y = harga 1 Lampu Nanas</p>
+        <p>z = harga 1 Bingkai Kaca dari CD</p>
+        <p><strong>Persamaan:</strong></p>
+        <p>1) x + y + z = 170.000</p>
+        <p>2) 2x + y + z = 230.000</p>
+        <p>3) x + y + 2z = 215.000</p>
+    </div>
+
+    <div class="card">
+        <h2>2. Eliminasi Persamaan (1) dan (2)</h2>
+        <p>(2x + y + z) − (x + y + z) = 230.000 − 170.000</p>
+        <p><strong>→ x = 60.000</strong></p>
+    </div>
+
+    <div class="card">
+        <h2>3. Substitusi x ke Persamaan (1)</h2>
+        <p>x + y + z = 170.000 → 60.000 + y + z = 170.000</p>
+        <p><strong>y + z = 110.000</strong></p>
+    </div>
+
+    <div class="card">
+        <h2>4. Eliminasi Persamaan (3) dan Persamaan Baru</h2>
+        <p>Pers 3: x + y + 2z = 215.000 → 60.000 + y + 2z = 215.000</p>
+        <p>y + 2z = 155.000</p>
+        <p>Kurangi persamaan:</p>
+        <p>(y + 2z) − (y + z) = 155.000 − 110.000</p>
+        <p><strong>→ z = 45.000</strong></p>
+    </div>
+
+    <div class="card">
+        <h2>5. Substitusi Nilai z ke Persamaan y + z = 110.000</h2>
+        <p>y + 45.000 = 110.000</p>
+        <p><strong>y = 65.000</strong></p>
+    </div>
+
+    <div class="result">
+        <h2>✔ Hasil Akhir</h2>
+        <p>(x, y, z) = <strong>(60.000, 65.000, 45.000)</strong></p>
+    </div>
+
+</section>
+ <!-- Footer -->
+  <section class="footer">
+  <footer class="main-footer">
+    <div class="footer-content">
+     <div class="footer-column">
+      <h3>Information</h3>
+      <ul>
+     <li><a href="../kolaborasi/index.html#home">HOME</a></li>
+      <li><a href="../kolaborasi/index.html#about">ABOUT</a></li>
+      <li><a href="../kolaborasi/index.html#Analysis">ANALYSIS</a></li>
+      <li><a href="../kolaborasi/index.html#bundling">BUNDLING</a></li>
+      <li><a href="../kolaborasi/index.html#produk">PRODUK</a></li>
+      </ul>
+     </div>
+
+     <div class="footer-column">
+      <h3>Helpful Links</h3>
+      <ul>
+       <li><a href="../kolaborasi/index.html#kontak">CONTACT</a></li>
+     <li><a href="../kolaborasi/index.html#profile">PROFILE</a></li>
+      </ul>
+     </div>
+
+     <div class="footer-column">
+      <h3>Contact us</h3>
+      <div class="contact-links">
+       <p> @onesshievaa</p>
+       <p> @itz.nnaylaaa</p>
+       <p> @amelyoa</p>
+      </div>
+     </div>
+
+     <div class="footer-column">
+      <h3>Follow</h3>
+      <ul class="social-links">
+       <li>
+        <a href="#">
+          <i class="fab fa-instagram">
+            <img src="./img/instagram.jpg" />
+          </i> 
+          Instagram
+        </a>
+      </li>
+       <li>
+        <a href="#">
+          <i class="fab fa-facebook-f">
+            <img src="./img/facebook.jpg" />
+          </i>
+          Facebook
+        </a>
+      </li>
+      </ul>
+     </div>
+     </div>
+     <hr />
+     <div class="copy">
+      <p>&copy; 2025 Bekerja Untuk Masa Depan Yang Cerah dan Damai</p>
+     </div>
+  </footer>
+ </section>
+</body>
+</html>

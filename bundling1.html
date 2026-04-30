@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylem1.css">
+</head>
+<body>
+     <header>
+    <div class="title-header">PRODUK <span style="color:#d9f99d;">3R</span></div>
+   
+    <nav>
+      <a href="../kolaborasi/index.html#home">HOME</a>
+      <a href="../kolaborasi/index.html#about">ABOUT</a>
+      <a href="../kolaborasi/index.html#Analysis">ANALYSIS</a>
+      <a href="../kolaborasi/index.html#bundling">BUNDLING</a>
+      <a href="../kolaborasi/index.html#produk">PRODUK</a>
+     <a href="../kolaborasi/index.html#kontak">CONTACT</a>
+     <a href="../kolaborasi/index.html#profile">PROFILE</a>
+    </nav>
+  </header>
+<div class="title-box">
+    <h1>Penyelesaian Sistem Persamaan Linear 3 Variabel</h1>
+    <p>Metode Eliminasi dan Substitusi</p>
+</div>
+
+<section class="container">
+
+     <div class="card">
+        <h2>1. Model Matematika</h2>
+        <p>x = harga 1 Tas Tutup Botol</p>
+        <p>y = harga 1 Lampu Sendok Plastik</p>
+        <p>z = harga 1 Ecoprint Pada Mug</p>
+        <p><strong>Persamaan:</strong></p>
+        <p>1) 2x + y + z = 135.000</p>
+        <p>2) x + 3y + z = 185.000</p>
+        <p>3) 2x + 2y + 3z = 245.000</p>
+    </div>
+
+    <div class="card">
+        <h2>2. Eliminasi Persamaan (1) dan (2)</h2>
+        <p>(2x + y + z) − (x + 3y + z) = 135.000 − 185.000</p>
+        <p><strong>x − 2y = −50.000</strong></p>
+        <p>→ Persamaan (4)</p>
+    </div>
+
+    <div class="card">
+        <h2>3. Eliminasi Persamaan (2) dan (3)</h2>
+        <p>Kali 3 pada persamaan (2):</p>
+        <p>3x + 9y + 3z = 555.000</p>
+        <p>Kurangi dengan persamaan (3):</p>
+        <p>(3x + 9y + 3z) − (2x + 2y + 3z) = 555.000 − 245.000</p>
+        <p><strong>x + 7y = 310.000</strong></p>
+        <p>→ Persamaan (5)</p>
+    </div>
+
+    <div class="card">
+        <h2>4. Eliminasi Persamaan (4) dan (5)</h2>
+        <p>Pers (4): x − 2y = −50.000 → ×7 → 7x − 14y = −350.000</p>
+        <p>Pers (5): x + 7y = 310.000 → ×2 → 2x + 14y = 620.000</p>
+        <p>Jumlahkan kedua persamaan:</p>
+        <p>9x = 270.000</p>
+        <p><strong>x = 30.000</strong></p>
+    </div>
+
+    <div class="card">
+        <h2>5. Substitusi Nilai x ke Persamaan (4)</h2>
+        <p>30.000 − 2y = −50.000</p>
+        <p>−2y = −80.000</p>
+        <p><strong>y = 40.000</strong></p>
+    </div>
+
+    <div class="card">
+        <h2>6. Substitusi x dan y ke Persamaan (1)</h2>
+        <p>2(30.000) + 40.000 + z = 135.000</p>
+        <p>100.000 + z = 135.000</p>
+        <p><strong>z = 35.000</strong></p>
+    </div>
+
+    <div class="result">
+        <h2>✔ Hasil Akhir</h2>
+        <p>(x, y, z) = <strong>(30.000, 40.000, 35.000)</strong></p>
+    </div>
+
+</section>
+ <!-- Footer -->
+  <section class="footer">
+  <footer class="main-footer">
+    <div class="footer-content">
+     <div class="footer-column">
+      <h3>Information</h3>
+      <ul>
+     <li><a href="../kolaborasi/index.html#home">HOME</a></li>
+      <li><a href="../kolaborasi/index.html#about">ABOUT</a></li>
+      <li><a href="../kolaborasi/index.html#Analysis">ANALYSIS</a></li>
+      <li><a href="../kolaborasi/index.html#bundling">BUNDLING</a></li>
+      <li><a href="../kolaborasi/index.html#produk">PRODUK</a></li>
+      </ul>
+     </div>
+
+     <div class="footer-column">
+      <h3>Helpful Links</h3>
+      <ul>
+       <li><a href="../kolaborasi/index.html#kontak">CONTACT</a></li>
+     <li><a href="../kolaborasi/index.html#profile">PROFILE</a></li>
+      </ul>
+     </div>
+
+     <div class="footer-column">
+      <h3>Contact us</h3>
+      <div class="contact-links">
+       <p> @onesshievaa</p>
+       <p> @itz.nnaylaaa</p>
+       <p> @amelyoa</p>
+      </div>
+     </div>
+
+     <div class="footer-column">
+      <h3>Follow</h3>
+      <ul class="social-links">
+       <li>
+        <a href="#">
+          <i class="fab fa-instagram">
+            <img src="./img/instagram.jpg" />
+          </i> 
+          Instagram
+        </a>
+      </li>
+       <li>
+        <a href="#">
+          <i class="fab fa-facebook-f">
+            <img src="./img/facebook.jpg" />
+          </i>
+          Facebook
+        </a>
+      </li>
+      </ul>
+     </div>
+     </div>
+     <hr />
+     <div class="copy">
+      <p>&copy; 2025 Bekerja Untuk Masa Depan Yang Cerah dan Damai</p>
+     </div>
+  </footer>
+ </section>
+</body>
+</html>
+

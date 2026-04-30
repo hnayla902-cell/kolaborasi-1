@@ -1,0 +1,169 @@
+/*bundling*/
+body {
+ font-family: Arial, sans-serif;
+ background: #eef1f5;
+ margin: 0;
+ padding: 0;
+        }
+header {
+  background-color: rgb(23, 123, 216);
+  color: var(--white);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top:0;
+}
+
+.title-header {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 500;
+  transition: 0.3s;
+  
+}
+
+nav a:hover {
+  background-color: var(--color2);
+  border-radius: 8px;
+  padding: 3px ;
+}
+
+.title-box {
+ background: #173fc2;
+ color: white;
+ padding: 25px;
+ text-align: center;
+ box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.container {
+ max-width: 900px;
+ margin: 25px auto;
+ padding: 10px;
+}
+
+.card {
+ background: #ffffff;
+ padding: 20px;
+ margin-bottom: 15px;
+ border-radius: 12px;
+ box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+ border-left: 6px solid #4a8ff7;
+}
+
+.card h2 {
+margin-top: 0;
+color: #333;
+}
+
+.result {
+ background: #8ebfdd;
+ border-left: 6px solid #434ca0;
+ padding: 20px;
+ border-radius: 12px;
+ box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.result h2 {
+margin-top: 0;
+ color: #000000;
+}
+
+a {
+color: #4a6cf7;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover {
+text-decoration: underline;
+}
+/*Footer*/
+.main-footer {
+    background-color: #76cadf;
+    font-family: 'Times New Roman', Times, serif; 
+    color: black;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px 30px 20px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex-basis: 22%;
+    min-width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column li {
+    margin-bottom: 5px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color 0.3s;
+}
+
+.footer-column a:hover {
+    color:white; 
+}
+
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+}
+
+.social-links li a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.social-links i {
+    font-size: 1.2rem;
+    color:black; 
+}
+
+.copy {
+    text-align: center;
+    margin: 5px 0 5px 0;
+    font-size: 20p;
+}
+.copy p{
+    text-align: center;
+}
