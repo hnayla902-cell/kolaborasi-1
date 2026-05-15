@@ -36,6 +36,46 @@ nav a:hover {
   padding: 3px ;
 }
 
+/* Container agar tombol punya jarak yang pas */
+.back-nav-container {
+    padding: 20px 5%;
+    background-color: transparent; /* Mengikuti background halaman */
+}
+
+/* Styling utama tombol */
+.btn-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* Jarak antara panah dan teks */
+    text-decoration: none;
+    color: #ffffff; /* Ganti warna teks sesuai tema project */
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px; /* Bikin tombol lonjong/rounded */
+    transition: all 0.3s ease;
+}
+
+/* Efek transisi untuk ikon panah */
+.btn-back .arrow {
+    transition: transform 0.3s ease;
+}
+
+/* Efek pas tombol di-hover (disorot mouse) */
+.btn-back:hover {
+    background-color: #ffffff; /* Background berubah putih */
+    color: #121212; /* Teks berubah gelap */
+    border-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Efek panah geser ke kiri sedikit pas di-hover */
+.btn-back:hover .arrow {
+    transform: translateX(-4px);
+}
+
 .hero {
   background-image: url(./img/download\ \(5\).jpg);
   flex-wrap: wrap;
