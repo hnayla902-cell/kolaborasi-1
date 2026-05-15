@@ -36,44 +36,42 @@ nav a:hover {
   padding: 3px ;
 }
 
-/* Container agar tombol punya jarak yang pas */
-.back-nav-container {
-    padding: 20px 5%;
-    background-color: transparent; /* Mengikuti background halaman */
-}
+.btn-back-circle {
+    /* Posisi biar tetap di situ meski di-scroll (opsional) */
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 999;
 
-/* Styling utama tombol */
-.btn-back {
-    display: inline-flex;
+    /* Ukuran Lingkaran */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Ini yang bikin jadi lingkaran */
+    
+    /* Styling */
+    background-color: #ffffff; /* Warna dasar */
+    color: #121212; /* Warna ikon */
+    display: flex;
     align-items: center;
-    gap: 8px; /* Jarak antara panah dan teks */
+    justify-content: center;
     text-decoration: none;
-    color: #ffffff; /* Ganti warna teks sesuai tema project */
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 10px 20px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 30px; /* Bikin tombol lonjong/rounded */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.05);
 }
 
-/* Efek transisi untuk ikon panah */
-.btn-back .arrow {
+/* Efek Hover */
+.btn-back-circle:hover {
+    transform: scale(1.1); /* Membesar dikit */
+    background-color: #121212; /* Balik warna jadi gelap */
+    color: #ffffff; /* Ikon jadi putih */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+/* Biar ikon panahnya gerak dikit ke kiri pas di-hover */
+.btn-back-circle:hover svg {
+    transform: translateX(-2px);
     transition: transform 0.3s ease;
-}
-
-/* Efek pas tombol di-hover (disorot mouse) */
-.btn-back:hover {
-    background-color: #ffffff; /* Background berubah putih */
-    color: #121212; /* Teks berubah gelap */
-    border-color: #ffffff;
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
-}
-
-/* Efek panah geser ke kiri sedikit pas di-hover */
-.btn-back:hover .arrow {
-    transform: translateX(-4px);
 }
 
 .hero {
