@@ -36,44 +36,6 @@ nav a:hover {
   padding: 3px ;
 }
 
-.btn-back-circle {
-    /* Posisi biar tetap di situ meski di-scroll (opsional) */
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 999;
-
-    /* Ukuran Lingkaran */
-    width: 50px;
-    height: 50px;
-    border-radius: 50%; /* Ini yang bikin jadi lingkaran */
-    
-    /* Styling */
-    background-color: #ffffff; /* Warna dasar */
-    color: #121212; /* Warna ikon */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    transition: all 0.3s ease;
-    border: 1px solid rgba(0,0,0,0.05);
-}
-
-/* Efek Hover */
-.btn-back-circle:hover {
-    transform: scale(1.1); /* Membesar dikit */
-    background-color: #121212; /* Balik warna jadi gelap */
-    color: #ffffff; /* Ikon jadi putih */
-    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-}
-
-/* Biar ikon panahnya gerak dikit ke kiri pas di-hover */
-.btn-back-circle:hover svg {
-    transform: translateX(-2px);
-    transition: transform 0.3s ease;
-}
-
 .hero {
   background-image: url(./img/download\ \(5\).jpg);
   flex-wrap: wrap;
